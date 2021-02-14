@@ -28,3 +28,5 @@ if (GradleVersion.current().compareTo(minFxGradleVersion) >= 0 && JavaVersion.cu
 } else {
     System.err.println "Skipping wallettemplate, requires ${minFxGradleVersion}+ and Java 11+, currently running: ${GradleVersion.current()} and Java ${JavaVersion.current()}"
 }
+include 'citronwallet'
+

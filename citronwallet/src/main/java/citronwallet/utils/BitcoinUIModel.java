@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package wallettemplate.utils;
+package citronwallet.utils;
 
-import org.bitcoinj.core.Address;
-import org.bitcoinj.core.Coin;
-import org.bitcoinj.core.listeners.DownloadProgressTracker;
-import org.bitcoinj.wallet.Wallet;
 import javafx.application.Platform;
 import javafx.beans.property.ReadOnlyDoubleProperty;
 import javafx.beans.property.ReadOnlyObjectProperty;
 import javafx.beans.property.SimpleDoubleProperty;
 import javafx.beans.property.SimpleObjectProperty;
+import org.bitcoinj.core.Address;
+import org.bitcoinj.core.Coin;
+import org.bitcoinj.core.listeners.DownloadProgressTracker;
+import org.bitcoinj.wallet.Wallet;
 
 import java.util.Date;
 
